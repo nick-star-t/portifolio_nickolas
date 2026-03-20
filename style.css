@@ -758,3 +758,28 @@ footer {
     justify-content: center;
   }
 }
+
+/* HERO ICONS */
+
+.hero-icons{
+display:flex;
+align-items:center;
+gap:18px;
+margin:18px 0;
+flex-wrap:wrap;
+}
+
+.hero-icons i{
+font-size:28px;
+color:var(--accent);
+transition:0.3s;
+}
+
+.hero-icons i:hover{
+transform:translateY(-4px) scale(1.1);
+color:#fff;
+}
+
+.flag{
+font-size:24px;
+}
